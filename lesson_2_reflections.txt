@@ -1,0 +1,10 @@
+
+What happens when you initialize a repository? Why do you need to do it?
+
+    When I initialize a git repository, the .git folder is created. However, no files are added to the index, and no commits are made. This is because I need to choose which files to add to the index and which changes in the repository I want to track long-term.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+    The staging area is an area where things can be added and removed freely between the working directory and the repository. It can get messier than either other area, without causing problems, for that reason. I think it helps to select and prepare commits and gives the opportunity to build them.
+
+
