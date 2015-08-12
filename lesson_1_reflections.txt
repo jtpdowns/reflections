@@ -1,0 +1,30 @@
+
+Using diff to Find Bugs
+
+    The diff definitely eliminates the noise. Since the documents being compared are so similar by assumption, having the distinct lines highlighted really helps.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+    If you have a file's history, fixing mistakes gets a lot easier, as we noted earlier. It could also help you to understand your own process and areas that you tend to get stuck in. For example, if you always spend time debugging but also write your tests last, that might be a pattern to change.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+    Git is a little more expert-friendly. It places more trust and responsibility on the programmer. A system like Google Docs is forgiving to newcomers, but less efficient and more of a hassle to sift through. Git (manual saving) requires practices to be used effectively, whereas automatic saving does not. 
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+    For certain systems, files are less likely to related to one another. Since code is commonly modularized and partitioned, distinct pieces of code in a project often relate to one another. In the age of object-oriented programming, this is particularly true, and so tracking multiple files is particularly useful.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    The git log provides a full history, like a textbook. It offers little, linear updates on the status of the file. Alternatively, git diff lets you compare nonlinearly, seeing the differences between non-adjacent files in whatever order you would like. For a simple 'versus', diff is clearly better, but log provides a more comprehensible story.
+
+How might using version control make you more confident to make changes that could break something?
+
+    Since the consequence of breaking code is lessened with Git, code-breaking changes are not as much of a hassle. Git makes it easier to retrieve working code and to find bugs, so breaking things isn't so bad.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I would like to use Git to effectively contribute at work. It would also be helpful in making and breaking my own code and wasting less time fixing simple bugs. First, I'll need to develop some better commit habits.
+
+
