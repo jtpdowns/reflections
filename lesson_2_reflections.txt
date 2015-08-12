@@ -7,4 +7,8 @@ How is the staging area different from the working directory and the repository?
 
     The staging area is an area where things can be added and removed freely between the working directory and the repository. It can get messier than either other area, without causing problems, for that reason. I think it helps to select and prepare commits and gives the opportunity to build them.
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+    Since you can select the elements to add to your changing area, you can only place in those elements that constitute a logical change. If you place too many in, you can prune out excess elements with git reset.
+
 
