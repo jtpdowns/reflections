@@ -19,3 +19,7 @@ How do the diagrams help you visualize the branch structure?
 
     These diagrams help to visualize the graphical nature of Git. It is very clear that the commit parenthood is just a directed edge, and speaking about commits in terms of graph theory gives us access to algorithms like depth-first search to find all reachable commits.
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+    When both branches are merged, the commit history is no longer a tree. One of the commits acquires the changes of the other, and then it gets both parents. This allows additional features to be added, but it really complicates the commit graph. We represent the result the way we do because that is an accurate representation of the commit history. The result would be incomplete without both parents.
+
