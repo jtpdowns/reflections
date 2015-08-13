@@ -23,3 +23,7 @@ What is the result of merging two branches together? Why do we represent it in t
 
     When both branches are merged, the commit history is no longer a tree. One of the commits acquires the changes of the other, and then it gets both parents. This allows additional features to be added, but it really complicates the commit graph. We represent the result the way we do because that is an accurate representation of the commit history. The result would be incomplete without both parents.
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+    Git's automatic merging obviously relieves the user of the burden of merging manually. However, in some cases, the algorithm of choice for merging might not do what a user really wants or intends. With manual merging, it is impossible to avoid directly engaging with the code to at least some degree.
+
