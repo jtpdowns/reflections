@@ -1,0 +1,3 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+    I would want to keep a remote copy of my work as a more permanent and public backup. If my computer were damaged, I could retrieve my files without any problem. Also, if I or anyone else working on a different machine wanted to contribute to my work, a remote repository would greatly aid in this.
