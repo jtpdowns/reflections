@@ -6,3 +6,16 @@ Why might you want to always pull changes manually rather than having Git automa
 
     If multiple people were working on the same remote repository, any addition of broken code would affect everyone if Git automatically backed up. This would be a problem even for different, not necessarily broken code. Git chose manual, and it's pretty consistent about it.
 
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+    These are links between sets of commits in each case. Forks are GitHub-GitHub links, clones are GitHub-local links, and branches are local-local links. Working locally, I would have no choice but to use branching only. If I were contributing to a project or not bothering to remotely back up my own work, I might use clone directly to borrow from a repository. If I wanted to alter or play with someone else's code, I would use a fork. 
+
+
+
+
+
+
+
+
+
+
