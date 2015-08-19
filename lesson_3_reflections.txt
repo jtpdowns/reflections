@@ -14,7 +14,9 @@ What is the benefit of having a copy of the last known state of the remote store
 
     If you choose to work offline for a time, you may wish to eventually bring your version up to date. Furthermore, having a version of the remote stored locally can provide you with a release version of your software that you can toy with. It also provides an added layer of backup.
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
+    Without Git or GitHub, I could still use emails of .zip files, Google docs, or Subversion. All of these lack finess. Namely, .zip files provide no single synced version of the code, and both of the others would cause other changes to interfere with my own. I prefer Git as an option.
 
 
 
