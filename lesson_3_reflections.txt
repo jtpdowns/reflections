@@ -1,3 +1,8 @@
 When would you want to use a remote repository rather than keeping all your work local?
 
     I would want to keep a remote copy of my work as a more permanent and public backup. If my computer were damaged, I could retrieve my files without any problem. Also, if I or anyone else working on a different machine wanted to contribute to my work, a remote repository would greatly aid in this.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+    If multiple people were working on the same remote repository, any addition of broken code would affect everyone if Git automatically backed up. This would be a problem even for different, not necessarily broken code. Git chose manual, and it's pretty consistent about it.
+
