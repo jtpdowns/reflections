@@ -18,7 +18,9 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 
     Without Git or GitHub, I could still use emails of .zip files, Google docs, or Subversion. All of these lack finess. Namely, .zip files provide no single synced version of the code, and both of the others would cause other changes to interfere with my own. I prefer Git as an option.
 
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
 
+    Although only working in master would be simpler in terms of the number of commands involved, having separate branches allows you to more easily and cleanly partition the labor on a project. It also lets you keep a clean copy as a release.
 
 
 
